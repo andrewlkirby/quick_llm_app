@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import os
 from huggingface_hub import login
 
-login(token="your-token-here")
+login(token="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")
 
 torch.classes.__path__ = [os.path.join(torch.__path__[0], torch.classes.__file__)] 
 
